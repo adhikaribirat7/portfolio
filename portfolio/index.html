@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bfbfc1059f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/download.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="profile">
+                <!-- <img src="./images/hello_world.gif" alt=""> -->
+                <div class="header-text">
+                    <p>Java, Full-Stack Developer</p>
+                    <h1>Hello World!!, <br>I'm<span>Birat Adhikari</span><br> from Nepal</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- --------------------------about----------------------- -->
+
+    <div id="about">
+        <div class="container">
+             <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/about -me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Tempora ducimus dolorem tempore quos veniam sunt cumque 
+                         maiores perferendis ad sequi ipsum neque totam, doloremque 
+                         sint ea in nisi eos id recusandae. Minus, doloremque maiores
+                          quidem non, modi assumenda quas ab quibusdam magnam nobis 
+                        suscipit ipsum culpa provident veniam. Quasi, deleniti? Lorem 
+                        ipsum dolor sit amet consectetur adipisicing elit. Dolor sint,
+                         ullam non nihil ab ea labore molestias sed qui, odio obcaecati 
+                         laudantium facilis iure quod totam accusantium perspiciatis. 
+                         Eligendi velit eaque nulla ad soluta blanditiis quaerat amet 
+                         autem unde natus ratione ipsum ipsa officia eum fuga debitis, 
+                        accusamus sunt recusandae?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Full Stack</span><br>
+                            </li>
+                            <li>
+                                <span>Java Developer</span><br>
+                            </li>
+                            <li>
+                                <span>Android App Developer</span><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>exxFull Stack</span><br>
+                            </li>
+                            <li>
+                                <span>Java Developer</span><br>
+                            </li>
+                            <li>
+                                <span>Android App Developer</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>eduFull Stack</span><br>
+                            </li>
+                            <li>
+                                <span>Java Developer</span><br>
+                            </li>
+                            <li>
+                                <span>Android App Developer</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!-- services------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Fuga fugit nostrum tempora? Sit libero inventore ullam et omnis officiis est.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Fuga fugit nostrum tempora? Sit libero inventore ullam et omnis officiis est.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Fuga fugit nostrum tempora? Sit libero inventore ullam et omnis officiis est.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------------------------------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/java.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Ipsum repudiandae id nobis ut et corrupti, similique aliquam.
+                             Dolor laborum, quibusdam, tempora nostrum nesciunt id recusandae 
+                             quidem vel vero, rem sapiente.</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/java.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Ipsum repudiandae id nobis ut et corrupti, similique aliquam.
+                             Dolor laborum, quibusdam, tempora nostrum nesciunt id recusandae 
+                             quidem vel vero, rem sapiente.</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="./images/java.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Ipsum repudiandae id nobis ut et corrupti, similique aliquam.
+                             Dolor laborum, quibusdam, tempora nostrum nesciunt id recusandae 
+                             quidem vel vero, rem sapiente.</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------contact-------------------   -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./images/check.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright<i class="fa-regular fa-copyright"></i> Birat</p>
+        </div>
+    </div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+     function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1HUzAGiVvj_mrYPvejLaSYnBjkz0b0aHQ-oRBeDyfSuKInv2TTZEvLXjuDkNeqXuf/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
